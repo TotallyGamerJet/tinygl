@@ -715,7 +715,7 @@ enum {
 /* some types */
 
 
-typedef void		GLvoid;
+#define GLvoid void
 typedef unsigned char	GLboolean;
 typedef signed char	GLbyte;		/* 1-byte signed */
 typedef short		GLshort;	/* 2-byte signed */
